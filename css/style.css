@@ -1,0 +1,11 @@
+h1{
+    font-size: 4rem;
+    min-width: 350px;
+    margin: auto;
+    font-weight: 800;
+}
+p{
+    font-size: 2rem;
+    min-width: 300px;
+    margin: auto;
+}
