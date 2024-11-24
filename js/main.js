@@ -19,7 +19,7 @@ var previous = null;
 function newQuote() {
   var max = arr.length;
   random = parseInt(Math.random() * max);
-  if (random == previous && random > 0 && random < max - 1) {
+  if (random == previous && random >= 0 && random < max - 1) {
     random = previous + 1;
     quoteContent.innerHTML = arr[random];
   } else if (random == previous && random > 0 && random == max - 1) {
